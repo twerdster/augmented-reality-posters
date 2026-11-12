@@ -8,11 +8,17 @@ Supervision: Aaron Wetzler.
 
 ## Status
 
-**Coming soon.** This repository is being prepared as a historical student-project archive. Original source code, project documents and build instructions will be added as they are recovered and reviewed. It is not yet a runnable release.
+**Partial original source recovered. Build and run untested.** Ten unchanged text files from the November 2011 final handoff are preserved under `source/`: six student Java additions, two small picture-geometry headers, the Android manifest and platform properties. This is not a complete application.
 
 ## Running
 
-No runnable source has been published in this repository yet. Platform requirements and setup instructions will be recorded from the original project files rather than guessed.
+The original project used Android/Eclipse, Java plus native C++/JNI, QCAR and OpenGL. `default.properties` targets Android API 11; the manifest sets minimum API 8. The launcher is `com.qualcomm.QCARSamples.ImageTargets.MainScreen`. `ContentGetter` uses the historical Apache HttpClient API to fetch a poster index/images. An exact QCAR/NDK/Eclipse version or verified build command was not recovered.
+
+Included student classes are `AboutDialog`, `ContentGetter`, `MainScreen`, `PosterData`, `PosterOptionsActivity` and `PostersListActivity`. The original package name is preserved for provenance; it does not imply these additions are Qualcomm-authored or that Qualcomm code is included.
+
+The final archive also contained Qualcomm sample files explicitly marked Confidential and Proprietary. Those Java/native sample files, native makefiles, SDK resources/libraries and APKs are excluded. UI assets/resources, poster data, Eclipse workspace/user state and unreviewed reports/presentations are also omitted. The snapshot references omitted sample classes and resources and cannot build standalone. Do not restore the excluded sample/SDK code without separately establishing redistribution rights.
+
+No recovered code or binaries were executed. Included files retain their original bytes; no API credentials or personal identifiers were found in the selected text files during the bounded review.
 
 ## Links
 
@@ -20,5 +26,5 @@ No runnable source has been published in this repository yet. Platform requireme
 
 ## Attribution and Updates
 
-Original student and third-party attribution will be retained. No license for unrecovered source code is implied by this README. Original authors can open an issue to contribute updates or request corrections or removal of their material.
+The historical report uses the name variants Miki Weiss and Hagay Myr; website credits above are retained. No blanket license has been added. Student source and each omitted third-party dependency retain their own ownership and terms. Original authors can open an issue to contribute updates or request corrections or removal of their material.
 
