@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-17",
+  "implementation": "New independent JavaScript/Canvas browser demo",
+  "browser": "Chromium 157.0.8103.79",
+  "coverage": "Headless desktop interaction and 390-pixel responsive layout; synthetic/local examples only",
+  "assertions": [
+    {
+      "label": "meaningful document title",
+      "passed": true
+    },
+    {
+      "label": "scope and synthetic-data notice visible",
+      "passed": true
+    },
+    {
+      "label": "catalog switches to mapping poster",
+      "passed": true
+    },
+    {
+      "label": "diagram visibility changes layer count",
+      "passed": true
+    },
+    {
+      "label": "both content layers can be hidden",
+      "passed": true
+    },
+    {
+      "label": "layers can be restored",
+      "passed": true
+    },
+    {
+      "label": "JSON export parses successfully",
+      "passed": true
+    },
+    {
+      "label": "no JavaScript page errors",
+      "passed": true
+    },
+    {
+      "label": "demo requests only its local static files",
+      "passed": true
+    },
+    {
+      "label": "mobile layout has no horizontal overflow",
+      "passed": true
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "not_tested": [
+    "Historical application build or native SDK execution",
+    "Real sensors, camera capture or hardware accuracy",
+    "Physical mobile browsers, Safari or Firefox"
+  ],
+  "original_commit": "637a89b29e2207bbdf6be60fe80b058a66ba26d0"
+}
